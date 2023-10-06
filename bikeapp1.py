@@ -4,7 +4,7 @@ import numpy as np
 #import sklearn
 #from sklearn.ensemble import GradientBoostingRegressor
 import pickle
-model = pickle.load(open('/Users/rajusubba/london-bike-shares-main/gb_model.pkl', 'rb'))
+model = pickle.load(open('gb_model.pkl', 'rb'))
 st.title("Prediction of bike")
 st.markdown("Here we are using temperature as the input to predict the day's revenue")
 st.subheader("Real Temperature in in C")
