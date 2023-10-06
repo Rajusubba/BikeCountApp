@@ -1,5 +1,1 @@
-numpy==\cf4 1.22.0\cf2 \
-pandas==\cf4 1.3.4\cf2 \
-plotly==\cf4 5.5.0\cf2 \
-streamlit==\cf4 1.3.0\cf2 \
-scikit-learn==\cf4 1.2.0}
+scikit-learn==1.2.0
