@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import sklearn
+#import sklearn
 from sklearn.ensemble import GradientBoostingRegressor
 import pickle
 model = pickle.load(open('gb_model.pkl', 'rb'))
