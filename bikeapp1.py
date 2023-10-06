@@ -8,7 +8,7 @@ import pickle
 #dir = path.Path(_file_).abspath()
 #sys.append.path(dir.parent.parent)
 #path_to_model = './Users/rajusubba/london-bike-shares-main/gb_model.pkl'
-model = pickle.load(open('./app/bikecountapp/gb_model.pkl', 'rb'))
+model = pickle.load(open('bikecountapp/gb_model.pkl', 'rb'))
 st.title("Prediction of bike")
 st.markdown("Here we are using temperature as the input to predict the day's revenue")
 st.subheader("Real Temperature in in C")
