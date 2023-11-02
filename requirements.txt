@@ -4,4 +4,4 @@ opencv-python-headless
 tensorflow-cpu
 keras
 streamlit-webrtc
-Sklearn
+scikit-learn
